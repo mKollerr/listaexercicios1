@@ -15,7 +15,7 @@ let sideC = Number(prompt('Lado C: '))
 function whichTriangle(sideA, sideB, sideC) {
     if(sideA < (sideB + sideC) && sideB < (sideA + sideC) && sideC < (sideA + sideB)) {
         if(sideA == sideB && sideB == sideC){
-            console.log('Os valores informados formam um triangulo eqüilátero1.')
+            console.log('Os valores informados formam um triangulo eqüilátero.')
         } else if(sideA != sideB && sideB != sideC) {
             console.log('Os valores informados formam um triangulo escaleno.')
         } else if(sideA == sideB || sideA == sideC || sideB == sideC) {
