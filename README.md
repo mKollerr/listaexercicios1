@@ -1,8 +1,8 @@
-# 🧠 Lista de Exercícios em JavaScript
+# 🧠 Lista de Exercícios 1 - Estudando as estruturas básicas
 
-Este repositório contém uma série de exercícios resolvidos em JavaScript, com foco no desenvolvimento da lógica de programação utilizando entrada de dados via terminal.
+Este repositório contém uma série de exercícios que contemplam as operações fundamentais, estruturas de controle condicional e de repetição.
 
-## 🚀 Tecnologias e Ferramentas
+## 🚀 Tecnologias e Ferramentas utlizidas 
 
 - [Node.js](https://nodejs.org/)
 - [prompt-sync](https://www.npmjs.com/package/prompt-sync) (para entrada de dados via terminal)
@@ -11,7 +11,7 @@ Este repositório contém uma série de exercícios resolvidos em JavaScript, co
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repo.git
+   git clone https://github.com/mKollerr/listaexercicios1
    cd seu-repo
    ```
 
@@ -24,7 +24,7 @@ Este repositório contém uma série de exercícios resolvidos em JavaScript, co
 
 1. Após instalar as dependências, execute qualquer arquivo de exercício com o Node.js:
    ```bash
-   node exercicios/nome-do-exercicio.js
+   node exercicios/exercise01.js
    ```
 
 2. Ao executar, o terminal pedirá inputs do usuário através do `prompt-sync`.
@@ -32,20 +32,12 @@ Este repositório contém uma série de exercícios resolvidos em JavaScript, co
 ## 📁 Estrutura dos Arquivos
 
 ```
-exercicios/
-├── 01-condicionais.js
-├── 02-loops.js
-├── 03-funcoes.js
+/
+├── exercise01.js
+├── exercise02.js
+├── exercise03.js
 └── ...
 ```
 
-Cada arquivo contém exercícios focados em tópicos específicos como condicionais, laços de repetição, funções, arrays, entre outros.
-
-## ✍️ Autor
-
-Feito por [Seu Nome](https://github.com/seu-usuario).  
-Contribuições são bem-vindas!
-
-## 📝 Licença
-
-Este projeto está licenciado sob a licença MIT.
+## ⚠️ Atenção! 
+Certifique-se de rodar os arquivos no diretório correto.
