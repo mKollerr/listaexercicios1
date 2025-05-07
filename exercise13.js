@@ -7,7 +7,7 @@ let soma = 0
 let media = 0
 
 while (num != 0) {
-    num = Number(prompt('Informe um número decimal, para finalizar digite 0:'))
+    num = parseFloat(prompt('Informe um número decimal, para finalizar digite 0:'))
     soma += num
     media = soma/divisor
     divisor++
