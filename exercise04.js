@@ -1,7 +1,7 @@
 //Crie um menu interativo no console que oferece ao usuário a escolha de três opções. Utilize switch-case para implementar a lógica de cada opção selecionada.
 const prompt = require('prompt-sync')()
 
-// console.log('Bem vindo ao contador numérico ultra necessário!')
+
 let choise = Number(prompt('Para contar de 1 até 10 tecle [1]; Para contar de 10 até 1 tecle [2]; Para receber uma mensagem motivalcional tecle [3]:'))
 
 function countUp() {
